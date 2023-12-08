@@ -1,0 +1,53 @@
+[
+  {
+    "name": "strength",
+    "label": "Strength",
+    "skill_proficiencies": [{ "name": "athletics", "label": "Athletics" }]
+  },
+  {
+    "name": "dexterity",
+    "label": "Dexterity",
+    "skill_proficiencies": [
+      { "name": "acrobatics", "label": "Acrobatics" },
+      { "name": "sleight_of_hand", "label": "Sleight of Hand" },
+      { "name": "stealth", "label": "Stealth" }
+    ]
+  },
+  {
+    "name": "constitution",
+    "label": "Constitution",
+    "skill_proficiencies": []
+  },
+  {
+    "name": "intelligence",
+    "label": "Intelligence",
+    "skill_proficiencies": [
+      { "name": "arcana", "label": "Arcana" },
+      { "name": "history", "label": "History" },
+      { "name": "investigation", "label": "Investigation" },
+      { "name": "nature", "label": "Nature" },
+      { "name": "religion", "label": "Religion" }
+    ]
+  },
+  {
+    "name": "wisdom",
+    "label": "Wisdom",
+    "skill_proficiencies": [
+      { "name": "animal_handling", "label": "Animal Handling" },
+      { "name": "insight", "label": "Insight" },
+      { "name": "medicine", "label": "Medicine" },
+      { "name": "perception", "label": "Perception" },
+      { "name": "survival", "label": "Survival" }
+    ]
+  },
+  {
+    "name": "charisma",
+    "label": "Charisma",
+    "skill_proficiencies": [
+      { "name": "deception", "label": "Deception" },
+      { "name": "intimidation", "label": "Intimidation" },
+      { "name": "performance", "label": "Peformance" },
+      { "name": "persuasion", "label": "Persuasion" }
+    ]
+  }
+]

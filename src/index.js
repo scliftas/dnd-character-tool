@@ -1,13 +1,45 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import App from "./App";
+import List from "./pages/list/List";
+import listLoader from "./pages/list/listLoader";
+import Create from "./pages/create/Create";
+import createAction from "./pages/create/createAction";
+import View from "./pages/view/View";
+import viewLoader from "./pages/view/viewLoader";
+import reportWebVitals from "./reportWebVitals";
+import "typeface-roboto";
+import "typeface-bree-serif";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <List />,
+        loader: listLoader,
+      },
+      {
+        path: "/create",
+        element: <Create />,
+        action: createAction,
+      },
+      {
+        path: "/characters/:characterIndex",
+        element: <View />,
+        loader: viewLoader,
+      },
+    ],
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

@@ -1,0 +1,190 @@
+html {
+  font-family: "Bree Serif";
+  background: rgb(63,59,108);
+  background: radial-gradient(circle, rgba(63,59,108,1) 0%, rgba(2,0,36,1) 100%);
+  color: white;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 1em;
+  margin: 0;
+  margin-bottom: .4em;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 50%;
+  justify-self: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+fieldset {
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+  border-style: none;
+  border-radius: .4em;
+  padding: 1em;
+  margin-bottom: 1em;
+  background: rgb(98,79,130);
+  background: linear-gradient(140deg, rgba(98,79,130,1) 0%, rgba(121,79,130,0.5158438375350141) 100%);
+}
+
+fieldset > legend {
+  font-size: 2em;
+  color: #DA0C81;
+  text-shadow: 2px 2px 12px black;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: .2em;
+  margin-bottom: 1.4em;
+  border-radius: .4em;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: .6em;
+  border-radius: .4em;
+  border-style: solid;
+  border-color: #9F73AB;
+  background-color: #9F73AB;
+  color: white;
+}
+
+input:focus {
+  outline: 0;
+  border-style: solid;
+  border-color: #A3C7D6;
+  background-color: #cba8d4;
+}
+
+#input_name {
+  color: white;
+  background-color: transparent;
+  border-style: none;
+  font-size: 4em;
+  font-family: "Bree Serif";
+  padding: 0;
+  margin-bottom: .6em;
+  border-radius: 0;
+}
+
+#stats {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.flex_split {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+#hit_dice {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+#death_saves {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+#proficiencies {
+  min-width: 45%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+#proficiencies > label {
+  width: 45%;
+  text-align: center;
+}
+
+.ability_score {
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: flex-start;
+}
+
+.ability_score_proficiency {
+  width: 100%;
+  align-items: center;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ability_score_proficiency > p {
+  width: 10em;
+  text-align: left;
+  justify-self: flex-start;
+}
+
+#spell_slots {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: flex-start;
+}
+
+.spell_slot {
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#actions {
+  width: 100%;
+}
+
+#button_submit {
+  align-self: last;
+  justify-self: flex-end;
+  float: right;
+  width: auto;
+  background-color: #A3C7D6;
+  border-style: none;
+  font-size: 1.4em;
+  font-family: "Bree Serif";
+}
+
+#button_submit:hover {
+  background-color: #5da2bf;
+}

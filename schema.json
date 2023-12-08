@@ -1,0 +1,145 @@
+{
+  "name": "",
+  "race": {
+    "name": "",
+    "traits": []
+  },
+  "class": {
+    "name": "",
+    "subclass": {
+      "name": ""
+    }
+  },
+  "background": {
+    "name": ""
+  },
+  "level": 0,
+  "proficiency": 0,
+  "passive_perception": 0,
+  "inspiration": 0,
+  "passive_insight": 0,
+  "armour_class": 0,
+  "initiative": 0,
+  "speed": 0,
+  "hit_point_maximum": 0,
+  "temporary_hit_points": 0,
+  "spell_attack_bonus": 0,
+  "spell_save_dc": 0,
+  "hit_dice": {
+    "total": 0,
+    "used": 0
+  },
+  "death_saves": {
+    "successes": 0,
+    "failures": 0
+  },
+  "proficiencies": {
+    "light_armour": false,
+    "simple_weapons": false,
+    "medium_armour": false,
+    "martial_weapons": false,
+    "heavy_armour": false,
+    "shields": false
+  },
+  "ability_scores": {
+    "strength": {
+      "score": 0,
+      "saving_throws": false,
+      "skill_proficiencies": [
+        {
+          "name": "acrobatics",
+          "label": "Acrobatics",
+          "proficient": false,
+          "expertise": false
+        }
+      ]
+    },
+    "dexterity": {
+      "score": 0,
+      "saving_throws": false,
+      "skill_proficiencies": []
+    },
+    "constitution": {
+      "score": 0,
+      "saving_throws": false,
+      "skill_proficiencies": []
+    },
+    "intelligence": {
+      "score": 0,
+      "saving_throws": false,
+      "skill_proficiencies": []
+    },
+    "wisdom": {
+      "score": 0,
+      "saving_throws": false,
+      "skill_proficiencies": []
+    },
+    "charisma": {
+      "score": 0,
+      "saving_throws": false,
+      "skill_proficiencies": []
+    }
+  },
+  "languages": [],
+  "tools": [],
+  "attacks": [
+    {
+      "name": "",
+      "attack_bonus": 0,
+      "damage": {
+        "roll": 0,
+        "bonus": 0,
+        "type": ""
+      }
+    }
+  ],
+  "spells": [
+    {
+      "name": "",
+      "level": 0,
+      "range": 0,
+      "casting_time": 0,
+      "concentration": false,
+      "save": "",
+      "description": ""
+    }
+  ],
+  "spell_slots": {
+    "1": {
+      "total": 0,
+      "used": 0
+    },
+    "2": {
+      "total": 0,
+      "used": 0
+    },
+    "3": {
+      "total": 0,
+      "used": 0
+    },
+    "4": {
+      "total": 0,
+      "used": 0
+    },
+    "5": {
+      "total": 0,
+      "used": 0
+    },
+    "6": {
+      "total": 0,
+      "used": 0
+    },
+    "7": {
+      "total": 0,
+      "used": 0
+    },
+    "8": {
+      "total": 0,
+      "used": 0
+    },
+    "9": {
+      "total": 0,
+      "used": 0
+    }
+  }
+}
