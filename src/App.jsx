@@ -1,6 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import d20 from "./d20.png";
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (

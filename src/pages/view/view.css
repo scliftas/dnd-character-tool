@@ -16,12 +16,6 @@ h1 {
   font-size: 4em;
 }
 
-#create {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 section {
   width: 50%;
   justify-self: center;
@@ -33,6 +27,21 @@ form {
   flex-flow: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+#view {
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+}
+
+#left-pane {
+  width: 25%;
+}
+
+#three-scene {
+  border-radius: .4em;
+  margin-bottom: 1em;
 }
 
 fieldset {
